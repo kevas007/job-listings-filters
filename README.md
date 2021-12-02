@@ -1,24 +1,27 @@
-# job-listings-filters
+![Preview](./exo-ressources/design/desktop-preview.jpg)
 
-## Project setup
-```
-npm install
-```
+## Le challenge
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Le challenge est de créer une page d'offres d'emploi similaire à celui des exemples fournis. 
+Vous trouverez les ressources habituelles (design, style guide) dans le dossier `exo-ressources`.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+L'utilisateur devrait être capable de :
 
-### Lints and fixes files
-```
-npm run lint
-```
+- Voir les états "hover" de tous les éléments interractifs de la page
+- Filtrer les offres d'emploi sur base des catégories
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Filtrage
+
+- Utilisez le fichier [data.json](./exo-ressources/data.json) pour récupérer le contenu et l'afficher dynamiquement.
+- Pour ajouter un filtre, l'utilisateur doit clicker sur les tags sur la partie droite des cartes.
+- Pour chaque filtre ajouté, seuls les cartes contenant **_tous_** les filtres doivent être affichées. 
+
+**Bonne chance !** 👾
+
+_ps : commencez par un_ `npm i`
+
+_ps2 : sass/scss loader est installé dans le projet_
+
+_ps3 : Vous devrez sans doute modifier le [json](./exo-ressources/data.json) pour les images_
+
+_ps4 : sans doute une bonne console, je sais pas, j'en ai pas, je suis plus Nintendo et PC perso_
